@@ -11,7 +11,7 @@ SELECT
     job_title,
     business_phone,
     city,
-    state_province as state,
-    zip_postal_code as zip_code
+    state_province AS state,
+    zip_postal_code AS zip_code
 FROM
     raw_customers
