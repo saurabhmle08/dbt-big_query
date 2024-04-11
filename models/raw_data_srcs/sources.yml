@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dl_northwind_practice
+    database: dbt-bq-project-420007
+    schema: dl_northwind_practice 
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
